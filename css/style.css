@@ -1,0 +1,80 @@
+body {
+    background: #efefef;
+}
+button {
+    width: 300px;
+    height: 60px;
+    outline: none;
+    background: linear-gradient(45deg, #c9eee4, #e8e7d1);
+    color: #439cce;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 30px;
+}
+#btnUsers {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+#errorMassage {
+    position: relative;
+}
+#errorStatus {
+    position: absolute;
+    left: 40%;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: "Bookman Old Style";
+    border-bottom: 1px solid black;
+}
+#errorText {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    top: 240px;
+    left: 49%;
+}
+.none {
+    display: none !important;
+}
+.activeLink {
+    background: #444 !important;
+}
+.activeMain {
+    z-index: 10;
+}
+#people {
+    display: flex;
+}
+.userLink {
+    width: 60px;
+    height: 25px;
+    background: #777;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    border: 2px solid white;
+}
+.avatar {
+    margin: 0 20px 0 20px;
+    width: 125px;
+    height: 125px;
+}
+.name {
+    font-size: 20px;
+    font-family: "Tw Cen MT",'arial';
+}
+img {
+    border-radius: 10px;
+    border: 3px solid #dedede;
+    box-shadow: 3px 3px 10px #333;
+}
+.userMain {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    background: #999;
+    display: flex;
+    padding-top: 20px;
+    border-radius: 0 35px 35px 0;
+}
